@@ -21,3 +21,25 @@ This tool empowers learners to focus on understanding material rather than manua
 
 
 GOOGLE DRIVE LINK - https://drive.google.com/drive/folders/1FzxJu7phNsH-0MASc0d1YIPSMNb06yIq?usp=drive_link
+
+
+
+STEP-BY-STEP INSTRUCTIONS TO SETUP AND RUN THE PROJECT:
+
+1) First, ensure you have Node.js installed (the project uses nodejs-20)
+
+2) Install all dependencies:
+   npm install
+
+3) Set up the database schema:
+   npm run db:push
+
+4) For development with AI features, follow the Ollama setup in OLLAMA_SETUP.md if you want to use local AI. Otherwise, the system will run in demonstration mode (Question and 
+   flashcard generation will not function)
+
+5) Start the development server:
+   npm run dev
+
+6)The server will start on port 5000. You can access:
+  Frontend: http://localhost:5000
+  API endpoints: http://localhost:5000/api/*
