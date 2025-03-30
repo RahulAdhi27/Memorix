@@ -1,0 +1,47 @@
+Core Dependencies:
+. express (web framework)
+. react & react-dom (frontend UI)
+. typescript (type support)
+. drizzle-orm & drizzle-kit (database ORM)
+. @neondatabase/serverless (database connector)
+. vite (build tool)
+
+
+Authentication & Session:
+. passport & passport-local
+. express-session
+. connect-pg-simple
+. memorystore
+
+UI Components & Styling:
+. @radix-ui/* components (UI primitives)
+. tailwindcss & related plugins
+. framer-motion (animations)
+. lucide-react (icons)
+. react-icons
+. shadcn/ui theme components
+
+Form Handling:
+. react-hook-form
+. @hookform/resolvers
+zod (validation)
+
+File Processing:
+. multer (file uploads)
+. pdf-parse (PDF processing)
+. node-html-parser
+
+AI/ML:
+. @huggingface/inference
+. ollama
+. openai
+(We had limited tokens for openAI and huggingface which is why the model currently uses a locally run ollama)
+
+Development Tools:
+. tsx (TypeScript execution)
+. esbuild
+. @vitejs/plugin-react
+. @replit/vite plugins
+. drizzle-kit
+. postcss
+. autoprefixer
